@@ -1,0 +1,54 @@
+@import url("http://fonts.googleapis.com/earlyaccess/droidarabickufi.css");
+
+body {
+    font-family: "Droid Arabic Kufi",Helvetica,Arial,sans-serif;
+    font-family: "Droid Arabic Kufi","Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    direction: ltr;
+}
+
+* {
+	transition: .5s;
+}
+
+header {
+	width: 100%;
+	background-image: url('../images/background.jpg');
+}
+
+.wallpaper {
+	width: 100%;
+	height: 1000px;
+}
+
+.site-nav {
+	width: 100%;
+	background-color: #00d999;
+}
+
+.site-nav-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+
+.site-nav-list li {
+	height: 55px;
+	padding: .7% 1.7%;
+	display: inline-block;
+}
+
+.site-nav-list a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.active-link, .site-nav-list li:hover {
+	background-color: #fff;
+	color: #00d999;
+}
+
+.active-link a, .site-nav-list li:hover a{
+	color: #00d999;
+}

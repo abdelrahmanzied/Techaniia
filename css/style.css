@@ -12,7 +12,7 @@ body {
     margin: 0;
     list-style: none;
     text-decoration: none;
-	transition: .5s;
+    transition: .5s;
 }
 
 img:hover {
@@ -81,7 +81,7 @@ header {
 
 .handle span {
     line-height: 50px;
-	font-family: "Droid Arabic Kufi",Helvetica,Arial,sans-serif;
+    font-family: "Droid Arabic Kufi",Helvetica,Arial,sans-serif;
 }
 
 .wallpaper {
@@ -283,7 +283,7 @@ header {
 
 .left-ads {
 	max-height: 377px;
-    margin-top: 4%;
+    margin-top: 14%;
 }
 
 .left-ads img {
@@ -499,10 +499,6 @@ footer h4 {
 	clear: both;
 }
 
-.showing {
-	max-width: 330px;
-}
-
 /* Mobile Phones */
 
 @media (min-width: 320px) and (max-width: 640px) {
@@ -523,20 +519,32 @@ footer h4 {
     	width: 100%;
     }
 
+    .handle {
+        display: block;
+    }
+
+    .fa-navicon:before {
+        padding-left: 2%;
+    }
+
     .site-nav-list {
     	display: none;
+    }
+
+    .showing {
+        display: block;
     }
 
     .site-nav-list li {
     	width: 100%;
     }
 
-    .handle {
-    	display: block;
+    .site-nav-list li:first-of-type {
+        display: none;
     }
 
-    .fa-navicon:before {
-    	padding-left: 2%;
+    .site-nav-list a:hover {
+        margin-right: 2%;
     }
 
     .post {
@@ -663,6 +671,30 @@ footer h4 {
 
     .ads img {
     	width: 100%;
+    }
+
+    .handle {
+        display: block;
+    }
+
+    .site-nav-list {
+        display: none;
+    }
+
+    .showing {
+        display: block;
+    }
+
+    .site-nav-list li {
+        width: 100%;
+    }
+
+    .site-nav-list li:first-of-type {
+        display: none;
+    }
+
+    .site-nav-list a:hover {
+        margin-right: 2%;
     }
 
     .post-img {
